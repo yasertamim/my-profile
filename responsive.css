@@ -1,0 +1,46 @@
+@media (max-width: 990px) {
+    .grid {
+        grid-template-columns: 1fr;
+        width: 100%;            /* Full width */
+        box-sizing: border-box; /* Includes padding/border in width */
+        margin: 0;              /* Optional: remove margins */
+        padding: 0;    
+      
+    }
+    .grid-2 {
+        grid-template-columns: 1fr;
+        width: 100%;            /* Full width */
+        box-sizing: border-box; /* Includes padding/border in width */
+        margin: 0;              /* Optional: remove margins */
+        padding: 0;    
+        
+    }
+    .grid-2-4 {
+        grid-template-columns: 1fr;
+        width: 100%;            /* Full width */
+        box-sizing: border-box; /* Includes padding/border in width */
+        margin: 0;              /* Optional: remove margins */
+        padding: 0;    
+       
+    }
+    .sec-info{
+            order: 1;
+    }
+
+    .menu-itm{
+        display: none;
+    }
+
+    #menu-sm{
+    
+        display: block;
+    }
+    .about-btns{
+        display: flex;
+        flex-direction: row;
+
+    }
+
+
+
+}
