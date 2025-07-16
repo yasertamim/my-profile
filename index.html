@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Simple Website</title>
+  <title>Yaser Hani Timim</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="responsive.css" />
 
@@ -16,6 +18,7 @@
     <a href="#" class="menu-itm">Hello</a>
      <a href="#skills" class="menu-itm">Skills</a>
      <a href="#experience" class="menu-itm">Experience</a>
+     <a href="#projects" class="menu-itm">Projects</a>
      <a href="#education" class="menu-itm">Education</a>
      <a href="#contact" class="menu-itm">Contact me</a>
      <div id="menu-sm" >
@@ -23,9 +26,19 @@
 
      </div>
            
-  </nav>
+ <div id="dropdown-menu" class="dropdown hidden">
+        <a href="#" class="">Hello</a>
+        <a href="#skills" class="">Skills</a>
+        <a href="#experience" class="">Experience</a>
+        <a href="#projects" class="">Projects</a>
+        <a href="#education" class="">Education</a>
+        <a href="#contact" class="">Contact me</a>
+    </div>
 
+  </nav>
+    
 </div>
+
 </header>
 
 <!--
@@ -52,18 +65,19 @@
                 <span class="span-title">Email</span>
                 <span>yassertameem84@gmail.com</span>
             </p>
-            <p class="info">
+           <p class="info">
                 <span class="span-title">Social</span>
                 <span class="span-icons">
-                    <a target="_blank" href="https://www.facebook.com/" >
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/></svg>
-                    </a>
-                    <a target="_blank" href="https://www.instagram.com/" class="mdi fonts-icons mdi-instagram"></a>
-                    <a target="_blank" href="https://www.linkedin.com/" class="mdi fonts-icons mdi-linkedin"></a>
-
-                    <a target="_blank" href="https://github.com/" class="mdi fonts-icons mdi-github-circle"></a>
+                  <a href="https://www.facebook.com/yassertameem" target="_blank"><i class="fab fa-facebook"></i></a>
+                  
+                  <a href="https://www.linkedin.com/in/yaser-hani-timim-1a1b5623b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                  <a href="https://github.com/yasertamim" target="_blank"><i class="fab fa-github"></i></a>
+                  <!--
+                  <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                  -->
                 </span>
             </p>
+
             <div class="about-btns">
                 <a href="#contact" class="site-btn">Contact me</a>
                 <a href="media/Yaser-cv-no (1).pdf" class="site-btn gray-btn">Download cv</a>
@@ -89,8 +103,7 @@
       </h1>
       <p>
         
-          I am inspired by creating great work with people who are as passionate as I am about building something awesome.
-       
+          I enjoy combining logic with creativity. Whether building clean code or designing user-friendly interfaces, I’m passionate about crafting great digital experiences.       
       </p>
     </div>
     <div class="grid-2-4">
@@ -102,7 +115,7 @@
       </h4>
       <p>
         <span>
-         Javascript, Coffeescript, JAVA, Python, PHP, Go, Node.js, MongoDB, Redis, PostgreSQL, WebStorm.
+         .Net Core, C#, Javascript, MySQL.
         </span>
       </p>
       </div>
@@ -110,12 +123,12 @@
        <div>
          <h4>
           <span class="point">
-              UI\UX Design
+              CMS
           </span>
       </h4>
       <p>
         <span>
-         Photoshop, Illustrator, Sketch, Axure, XMind, Prototyping, Wireframing, User Research, Usability Testing.
+         Umbraco Cms.
         </span>
       </p>
       </div>
@@ -127,7 +140,20 @@
       </h4>
       <p>
         <span>
-         HTML, CSS, LESS, SASS, Bootstrap, Wordpress, Drupal, Phonegap / Cordova, Ionic, Foundation, Angular.js.
+         HTML, CSS, Tailwind.
+        </span>
+      </p>
+      </div>
+
+       <div>
+         <h4>
+          <span class="point">
+              Desktop Applications
+          </span>
+      </h4>
+      <p>
+        <span>
+         Python, .NET (WinForms / WPF / MAUI).
         </span>
       </p>
       </div>
@@ -150,25 +176,30 @@
               Experience.
           </span>
       </h1>
+ 
       <p>
         
-       I partner with startups, organizations and Fortune 500 companies to build digital products that help clients overcome challenges and create lasting connections with millions of people every day.
-       
+          Every project I’ve worked on taught me something new. I love the process of building, refining, and delivering great software experiences.       
       </p>
     </div>
     <div class="flex-container">
       <div class="flex-container">
-         <h4>
-          <span class="point">
-              Web developer 
-          </span>
-        </h4>
-        <span class="opacity-box">May, 2014 — Present</span>
-        <span class="opacity-box">Designed and developed user-friendly website, including optimized check-out page that increased user clicks, and subsequently customer purchases by 20%.</span>
-         
+          <h4>
+            <span class="point">
+                Web developer 
+            </span>
+          </h4>
+          <p>Frameworks AS</p>
+          <span class="opacity-box">2023 — 2025</span>
+          <span class="opacity-box">-	Developing and maintaining web applications and websites, handling both frontend and backend tasks.</span>
+          <span class="opacity-box">-	Frontend development using HTML, CSS, and JavaScript.</span>
+          <span class="opacity-box">-	Backend development using .NET framework and Umbraco CMS.</span>
+          <span class="opacity-box">-	Collaborating with teams to analyze needs and find solutions.</span>
+          <span class="opacity-box">-	Ensuring performance and security in web applications through regular maintenance.</span>
+          
       </div>
 
-       <div>
+       <div class="flex-container">
         
       </div>
        <div>
@@ -181,6 +212,65 @@
   </div>
 
 </section>
+
+
+<!--Projects-->
+
+<section id="projects" class="section">
+  <div class="grid-2">
+    <div class="block">
+      <h1>
+          <span class="point">
+              Projects.
+          </span>
+      </h1>
+      <p>
+        
+         Before joining the workforce, I built various projects on my own — turning ideas into working applications that expanded my knowledge and fueled my passion for tech.      </p>
+    </div>
+    <div class="flex-container">
+      <div class="flex-container">
+         <h4>
+          <span class="point">
+              Voice Assistant (Python) 
+          </span>
+        </h4>
+        <span class="opacity-box">March, 2023</span>
+        <span class="opacity-box">Developed a desktop application utilizing voice recognition technology. Using voice commands, I can easily perform various operations on my laptop.</span>
+
+      </div>
+
+      <div class="flex-container">
+         <h4>
+          <span class="point">
+              Online store (.Net Core)
+          </span>
+        </h4>
+        <span class="opacity-box">Feb, 2023</span>
+        <span class="opacity-box">Developed an e-commerce platform for selling clothes using .NET Core 6.</span>
+
+      </div>
+
+        <div class="flex-container">
+            <h4>
+              <span class="point">
+                  Blog (.Net Core)
+              </span>
+            </h4>
+            <span class="opacity-box">Jan, 2023</span>
+            <span class="opacity-box">Developed an e-commerce platform for selling clothes using .NET Core 6.</span>
+
+        </div>
+
+ 
+
+    </div>
+
+
+  </div>
+
+</section>
+
 
 <!--Education-->
 
@@ -201,21 +291,24 @@
       <div class="flex-container">
          <h4>
           <span class="point">
-              Web developer 
+              Bachelor’s in computer engineering
           </span>
         </h4>
-        <span class="opacity-box">May, 2014 — Present</span>
-        <span class="opacity-box">Designed and developed user-friendly website, including optimized check-out page that increased user clicks, and subsequently customer purchases by 20%.</span>
+        <span class="opacity-box">2019-2022</span>
+        <span class="opacity-box">University of Agder </span>
          
       </div>
 
-       <div>
-        
-      </div>
-       <div>
+    <div class="flex-container">
+         <h4>
+          <span class="point">
+              Umbraco Professional Certification 
+          </span>
+        </h4>
+        <span class="opacity-box">Oct, 2023</span>
+        <span class="opacity-box">Umbraco</span>
          
       </div>
-
     </div>
 
 
@@ -235,20 +328,16 @@
       </h1>
       <p>
         
-        Are you working on something great? I would love to help make it happen! Drop me a letter and start your project right now! Just do it.      </p>
-    </div>
+          I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Let's connect!    </div>
     <div class="flex-container">
       <div class="flex-container">
-        
-         
+        <a href="mailto:yourname@example.com">yassertameem84@gmail.com</a>
+
+         <a href="tel:+123456789">+4745546032</a>
+
       </div>
 
-       <div>
-        
-      </div>
-       <div>
-         
-      </div>
+      
 
     </div>
 
@@ -259,7 +348,14 @@
 
 
 <footer>
-  <p>Copyright 2025 Yaser.</p>
+   <div class="footer-content">
+    <p>&copy; 2025 Yaser Hani Timim. All rights reserved.</p>
+    <p>
+      <a href="mailto:yassertameem84@gmail.com">yassertameem84@gmail.com</a> |
+      <a href="https://github.com/yasertamim" target="_blank">GitHub</a> |
+      <a href="https://www.linkedin.com/in/yaser-hani-timim-1a1b5623b/" target="_blank">LinkedIn</a>
+    </p>
+  </div>
 
 </footer>
   <script src="script.js"></script>
