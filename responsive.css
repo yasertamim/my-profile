@@ -1,9 +1,9 @@
 @media (max-width: 768px) {
 
-  html, body {
-    width: 100%;
-    overflow-x: hidden;
-}
+    html, body {
+        width: 90%;
+        overflow-x: hidden;
+    }
     .grid {
         grid-template-columns: 1fr;
         width: 100%;            /* Full width */
@@ -61,11 +61,11 @@
         font-size: 1.5rem;
     }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     p, span {
         word-break: break-word;
         overflow-wrap: break-word;
@@ -77,8 +77,8 @@
         padding-left: 50px;
       
     }
-        .about-btns {
-            padding-top: 10px;
-        }
+    .about-btns {
+        padding-top: 10px;
+    }
 
 }
